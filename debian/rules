@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+MARKDOWN_DOCS=$(wildcard Docs/*.md)
+HTML_DOCS=$(MARKDOWN_DOCS:.md=.html)
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+Docs/%.html: Docs/%.md
+	pandoc -f markdown_github -t html -o $@ $^
+
+override_dh_installdocs: $(HTML_DOCS)
+	dh_installdocs
+
+override_dh_compress:
+	dh_compress -X.py

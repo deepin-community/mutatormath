@@ -1,0 +1,3 @@
+Test-Command: python3 Lib/mutatorMath/test/run.py
+Depends: python3-mutatormath
+Restrictions: allow-stderr

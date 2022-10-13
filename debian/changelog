@@ -1,0 +1,47 @@
+mutatormath (3.0.1-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1
+  * debian/control: Bump Standards-Version to 4.5.0
+  * debian/tests/control: Add autopkgtest
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Sun, 31 May 2020 22:20:02 +0800
+
+mutatormath (3.0-1) unstable; urgency=medium
+
+  * New upstream version 3.0
+  * Bump compat to 12
+  * Bump Standards-Version to 4.4.0
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Sun, 08 Sep 2019 13:03:57 +0800
+
+mutatormath (2.1.2-1) unstable; urgency=medium
+
+  * New upstream version 2.1.2
+  * debian/control:
+    - Update and cleanup dependencies
+    - Bump Standards-Version to 4.2.1
+    - Change uploader email address
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Fri, 14 Dec 2018 10:40:18 +0800
+
+mutatormath (2.1.1-1) unstable; urgency=medium
+
+  [ Yao Wei (魏銘廷) ]
+  * New upstream version 2.1.1
+  * debian/control:
+    - Add version constraints to dependencies
+    - Bump Standrads-Version to 4.1.4
+    - Remove deprecated X-Python3-Version
+    - Change Vcs fields to salsa.debian.org
+    - Update mailing list address
+
+  [ Jeremy Bicha ]
+  * Bump debhelper compat to 11
+
+ -- Yao Wei (魏銘廷) <mwei@lxde.org>  Mon, 10 Sep 2018 13:30:48 +0800
+
+mutatormath (2.1.0-1) unstable; urgency=low
+
+  * Initial release. Closes: #806503
+
+ -- Yao Wei (魏銘廷) <mwei@lxde.org>  Sun, 19 Nov 2017 11:35:09 +0800

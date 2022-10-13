@@ -1,0 +1,3 @@
+version=4
+https://github.com/LettError/MutatorMath/releases \
+ .*/archive/@ANY_VERSION@@ARCHIVE_EXT@
